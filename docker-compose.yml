@@ -1,0 +1,8 @@
+version: '3'
+services:
+  django:
+    image: malker97/django-app:amd64
+    container_name: django
+    restart: always
+    ports:
+      - 8080:8080
